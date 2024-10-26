@@ -1,6 +1,6 @@
 .mobile-nav{
     position: absolute;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     top: 0;
     left: 0;
     z-index: 999;
