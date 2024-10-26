@@ -78,12 +78,12 @@
         max-width: 1024px;
     }
     .header__link{
-        font-size: var(--size-xs);
+        font-size: var(--size-lg);
 
     }
     .header__sun{
-        width: var(--size-xl);
-        height: var(--size-xl);
+        width: var(--size-2xl);
+        height: var(--size-2xl);
     }
     .header__resume{
         font-size: var(--size-sm);
