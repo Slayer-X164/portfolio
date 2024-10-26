@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .hero__img{
 
@@ -18,7 +18,7 @@
     font-size: var(--size-xl);
 }
 .hero__title{
-    font-size: var(--size-4xl);
+    font-size: var(--size-5xl);
     font-weight: bold;
     color: var(--clr-light);
     text-transform: uppercase;
