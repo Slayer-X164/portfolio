@@ -10,7 +10,7 @@
     gap: 1rem;
 }
 .about__title{
-    color: var(--clr-blue100);
+    color: var(--clr-slate400);
 }
 .about__desc{
     font-size: var(--size-sm);
@@ -23,7 +23,7 @@
 }
 .about__subtitle{
     font-size: var(--size-lg);
-    color: var(--clr-blue100);
+    color: var(--clr-slate400);
 }
 .about__ul{
     display: flex;
@@ -52,7 +52,7 @@
 
 }
 .about__pfp{
-    width: 450px;
+    width: 28rem;
     border-radius: 5px;
 }
 /* XS */
@@ -63,8 +63,11 @@
     .about__content{
         gap: 1.5rem;
     }
+    .about__title{
+        font-size: var(--size-3xl);
+    }
     .about__desc{
-        font-size: var(--size-sm);
+        font-size: var(--size-lg);
         max-width: 500px;
         color: var(--clr-slate600);
         font-weight: 600;
@@ -74,16 +77,9 @@
     }
     .about__subtitle{
         font-size: var(--size-lg);
-        color: var(--clr-blue100);
+
     }
-    .about__ul{
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        list-style-type: none;
-        padding-left: 0.5rem;
-        flex: 1;
-    }
+
     .about__ul li img{
         width: 25px;
     }
@@ -93,7 +89,7 @@
         gap: 0.5rem;
     }
     .about__list{
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
         font-weight: 500;
 
     }
@@ -123,13 +119,72 @@
         width: 350px;
         border-radius: 5px;
     }
+    .about__content{
+        gap: 1.5rem;
+    }
+    .about__title{
+        font-size: var(--size-4xl);
+    }
+    .about__desc{
+        font-size: var(--size-xl);
+        max-width: 500px;
+        color: var(--clr-slate600);
+        font-weight: 600;
+    }
+    .about__subtitle{
+        font-size: var(--size-xl);
+
+    }
+
+    .about__ul li img{
+        width: 28px;
+    }
+
+    .about__list{
+        font-size: var(--size-lg);
+        font-weight: 500;
+
+    }
+
+
 }
 
 /* xl */
 @media (min-width:1028px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about__pfp{
+        width: 400px;
+        border-radius: 5px;
+    }
+    .about__content{
+        gap: 1.5rem;
+    }
+    .about__title{
+        font-size: var(--size-4xl);
+    }
+    .about__desc{
+        font-size: var(--size-2xl);
+        max-width: 500px;
+        color: var(--clr-slate600);
+        font-weight: 600;
+    }
+    .about__subtitle{
+        font-size: var(--size-xl);
 
+    }
+
+    .about__ul li img{
+        width: 28px;
+    }
+
+    .about__list{
+        font-size: var(--size-lg);
+        font-weight: 500;
+
+    }
 }
-/* 2xl */
-/* @media (min-width:1536px) {
-
-} */

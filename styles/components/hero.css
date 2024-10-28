@@ -5,7 +5,8 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 4rem;
 }
 .hero__img{
 
@@ -37,10 +38,10 @@
         height: 8rem;
     }
     .hero__subtitle{
-        font-size: var(--size-xl);
+        font-size: var(--size-2xl);
     }
     .hero__title{
-        font-size: var(--size-5xl);
+        font-size: var(--size-6xl);
 
     }
 }
@@ -75,7 +76,7 @@
         font-size: var(--size-4xl);
     }
     .hero__title{
-        font-size: var(--size-7xl);
+        font-size: var(--size-8xl);
 
     }
     .hero__btn{
