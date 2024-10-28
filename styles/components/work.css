@@ -7,8 +7,8 @@
     font-size: var(--size-xs);
 }
 .work__link{
-    width: var(--size-2xl);
-    height: var(--size-2xl);
+    width: var(--size-3xl);
+    height: var(--size-3xl);
 }
 .work__link_wrapper{
     display: flex;
