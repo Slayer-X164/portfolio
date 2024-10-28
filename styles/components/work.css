@@ -4,7 +4,7 @@
     font-size: var(--size-2xl);
 }
 .work__subtitle{
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
 }
 .work__link{
     width: var(--size-3xl);
@@ -35,7 +35,7 @@
     list-style: none;
 }
 .work__techstack_info{
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
     padding: 0;
     list-style: none;
     text-transform: uppercase;
